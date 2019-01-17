@@ -18,6 +18,7 @@
 		717C601921DDE6C7000A18F7 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 717C601221DDE6C7000A18F7 /* AFURLSessionManager.m */; };
 		717C601A21DDE6C7000A18F7 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 717C601421DDE6C7000A18F7 /* AFURLResponseSerialization.m */; };
 		717C601D21DDF3AA000A18F7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717C601C21DDF3AA000A18F7 /* Security.framework */; };
+		7181795E21F0C8B1005C26C2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7181795D21F0C8B1005C26C2 /* DetailViewController.m */; };
 		71D9B3E621DCC7BA00D766BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D9B3E521DCC7BA00D766BD /* AppDelegate.m */; };
 		71D9B3E921DCC7BA00D766BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D9B3E821DCC7BA00D766BD /* ViewController.m */; };
 		71D9B3EC21DCC7BA00D766BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D9B3EA21DCC7BA00D766BD /* Main.storyboard */; };
@@ -62,6 +63,8 @@
 		717C601321DDE6C7000A18F7 /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
 		717C601421DDE6C7000A18F7 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		717C601C21DDF3AA000A18F7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7181795C21F0C8B1005C26C2 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		7181795D21F0C8B1005C26C2 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		71D9B3E121DCC7BA00D766BD /* UImageTx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UImageTx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D9B3E421DCC7BA00D766BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71D9B3E521DCC7BA00D766BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 				717C5FFD21DDAC20000A18F7 /* NavigateViewController.m */,
 				711D4B6F21E9A35400DBAC58 /* TableViewController.h */,
 				711D4B7021E9A35400DBAC58 /* TableViewController.m */,
+				7181795C21F0C8B1005C26C2 /* DetailViewController.h */,
+				7181795D21F0C8B1005C26C2 /* DetailViewController.m */,
 			);
 			path = UImageTx;
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 				717C601921DDE6C7000A18F7 /* AFURLSessionManager.m in Sources */,
 				711D4B7121E9A35400DBAC58 /* TableViewController.m in Sources */,
 				71D9B3E621DCC7BA00D766BD /* AppDelegate.m in Sources */,
+				7181795E21F0C8B1005C26C2 /* DetailViewController.m in Sources */,
 				717C601521DDE6C7000A18F7 /* AFNetworkReachabilityManager.m in Sources */,
 				717C5FFE21DDAC20000A18F7 /* NavigateViewController.m in Sources */,
 				717C601721DDE6C7000A18F7 /* AFURLRequestSerialization.m in Sources */,
